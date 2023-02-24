@@ -94,6 +94,8 @@ strings data.txt | grep ====  #"strings" komanda se koristi za ispisivanje znako
 
 Level 11: The password for the next level is stored in the file data.txt, which contains base64 encoded data
 
+![11level1](https://user-images.githubusercontent.com/59295000/221290780-917653dc-d85f-4073-ba13-1ee5b030bd53.png)
+
 base64 -d data.txt #"base64 -d" koristi se kako bi se uradio decode texta u base64 formatu 
 
 
