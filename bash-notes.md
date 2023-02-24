@@ -92,15 +92,14 @@ Level 10: The password for the next level is stored in the file data.txt in one 
 
 strings data.txt | grep ====  #"strings" komanda se koristi za ispisivanje znakova, konkretno iz datoteke "data.txt", te grep da pronadje "====". 
 
+Level 11: The password for the next level is stored in the file data.txt, which contains base64 encoded data
+
+base64 -d data.txt #"base64 -d" koristi se kako bi se uradio decode texta u base64 formatu 
+
+
+
+
+
+
 
  
-
-
-
-
-
-
-
-
-
-
