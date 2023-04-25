@@ -84,12 +84,11 @@ SLEEPTIME=$(awk 'BEGIN{srand(); print int(rand()*(3600+1))}'); echo "0 0,12 * * 
 
 - [x] Koristeci openssl komande prikazati koji SSL certitikat koristite i datum njegovog isteka. Probajte korisitit razlicite openssl komande (HINT: Biljeskama za office hours imate knjigu u kojoj mozete pronaci recepte za razlicite openssl komande)
 
-Koristimo komandu:
+koristimo komandu:
 
 ```bash
 openssl s_client -showcerts -connect <ime-prezime>.awsbosnia.com:443
 ```
-![openssl](files/openssl_command1.png)
 
 ili 
 ```bash
@@ -128,3 +127,5 @@ openssl s_client -showcerts -connect ime-prezime.awsbosnia.com:443 2>/dev/null |
 - [x] Koristeci openssl komande prikazati koji SSL certitikat koristite za vasu domenu i datum njegovog isteka.
 
 ![amazon-cert-in-use](screenshots/amazon-cert-terminal.png)
+
+- [x] Kada zavrsite sa taskom kreirajte AMI image pod nazivom ami-ec2-ime-prezime-task-8 i terminirajte resurse koje ste koristili za izradu taska.
