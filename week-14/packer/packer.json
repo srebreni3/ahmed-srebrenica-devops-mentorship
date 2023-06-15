@@ -1,0 +1,24 @@
+{
+    "builders": [{
+        "type": "amazon-ebs",
+        "region": "eu-central-1",
+        "source_ami": "ami-0122fd36a4f50873a",
+        "instance_type": "t2.micro",
+        "ssh_username": "ec2-user",
+        "temporary_key_pair_type": "ed25519",
+        "ami_name": "packer-task-12-packer {{timestamp}}",
+        "tags": {
+            "Name": "task-12-ami-image-packer",
+            "Createdby": "ahmed.srebrenica",
+            "Project": "task-12",
+            "IaC": "Packer"
+        }
+    }],
+    "provisioners": [{
+        "type": "shell",
+        "inline": [
+            "sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022",
+            "sudo yum -y install https://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm"
+        ]
+    }]
+}
