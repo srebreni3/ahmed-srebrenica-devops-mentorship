@@ -1,4 +1,4 @@
-# DevOps Mentorship program! ☁️🟠
+# DevOps Mentorship program ☁️🟠
 
 The AWS / Cloud / DevOps / Site Reliability Engineering / Platform Engineering / Production Engineering Mentorship program, or abbreviated as the [DevOps Mentorship Program](https://www.youtube.com/watch?v=Ybwp3LJ1Vlo&list=PLM21oTGmKe23vhBHWss4jAb8fG9SYdRBE), is a FREE mentoring program held from February 2023 to September 2023. It is intended for all those who wish to gain and/or expand their knowledge of Cloud and DevOps technologies and tools. The program was initiated by a group of enthusiasts from the AWS community in Bosnia and Herzegovina, with the assistance of colleagues from the AWS communities in Montenegro, Serbia, and Slovenia, aiming to spread knowledge and assist everyone interested in building and advancing their IT careers in the mentioned areas.
 
